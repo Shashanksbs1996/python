@@ -1,6 +1,6 @@
 import math
 print('**Welcome to a Scientific calculator**')
-print('Enter your choice \n1. Enter 1 to add two number\n2.Enter 2 to subtract the number\n3.Enter 3 to multiply three number\n4.Enter 4 to get the remainder\n5.Enter 5 to get the square root of a number ')
+print('Enter your choice \n1. Enter 1 to add two number\n2.Enter 2 to subtract the number\n3.Enter 3 to multiply three number\n4.Enter 4 to get the remainder\n5.Enter 5 to get the Power of any Number')
 
 a=int(input('Enter first Number'))
 b=int(input('Enter Second Number'))
@@ -13,5 +13,7 @@ elif ch==3:
     print('\n',a*b,'is the multiplication of Number')
 elif ch==4:
     print('\n',a/b,'is the quotient of two Number')
+elif ch==5:
+    print('\n',int(math.pow(a,b)),'is the power of the number')
 else:
     print('Wrong Choice')
