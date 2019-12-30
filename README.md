@@ -5,8 +5,8 @@ In this projet i will add small program, which will help me help me improve my p
 
  My first Program is 
  
- !.Hello world
+ 	1.Hello world
  
- 2.Scientific Calculator
- 
- 3.Rock Paper & Scissors
+ 	2.Scientific Calculator
+	
+	3.Rock Paper & Scissors
